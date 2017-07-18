@@ -187,6 +187,7 @@ registerPlugins({
 
 // All the presets we should bundle
 registerPresets({
+  env: require('babel-preset-env'),
   es2015: require('babel-preset-es2015'),
   es2016: require('babel-preset-es2016'),
   es2017: require('babel-preset-es2017'),
